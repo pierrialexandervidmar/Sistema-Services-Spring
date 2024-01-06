@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+.titulo {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.botao-csv {
+  text-indent: -9999px;
+  width: 40px;
+  height: 25px;
+  background-color: #007bff; /* Cor de fundo do botão */
+  border: none; /* Remover a borda do botão */
+  background: url('C:\Projetos\STS\SistemaServico\frontend\public\csv.png') no-repeat center center; /* Substitua 'caminho-do-seu-icone.png' pelo caminho do seu ícone */
+}
+
+.input-style {
+  background-color: #050404;
+  color: white;
+}
+
+.input-style:focus {
+  background-color: #050404;
+  color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Inverte as cores para branco no ícone preto */
+}
+
+.tamanho-botao {
+  padding: 5px;
+  font-size: 13px;
+}
+
+.botao-alterar {
+  background: #374797;
+  color: white;
+}
+
+.botao-alterar:hover {
+  background: #1f2858;
+  color: white;
+}
+
+.botao-excluir {
+  background: #a02020;
+  color: white;
+}
+
+.botao-excluir:hover {
+  background: #741717;
+  color: white;
+}
+
+.botao-cancelar {
+  background: #d3a307;
+  color: white;
+}
+
+.botao-cancelar:hover {
+  background: #634c04;
+  color: white;
+}
+
+.botao-reativar {
+  background: #0d6efd;
+  color: white;
+}
+
+.botao-reativar:hover {
+  background: #0a58ca;
+  color: white;
+}
+
+body {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #010409, #010409); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+select {
+  background-color: black; /* Define o background-color para preto */
+  color: white; /* Define a cor do texto para branco */
+}
+
+/* Estilo para seta (ícone de dropdown) no Internet Explorer */
+select::-ms-expand {
+  color: white;
+}
+
+/* Estilo para seta (ícone de dropdown) no Mozilla Firefox */
+select::-moz-focus-inner {
+  color: white;
+}
+
+/* Estilo para seta (ícone de dropdown) no Google Chrome e Safari */
+select::-webkit-inner-spin-button,
+select::-webkit-outer-spin-button {
+  color: white;
+  margin-right: 10px; /* Ajuste de margem para melhorar o posicionamento */
+}

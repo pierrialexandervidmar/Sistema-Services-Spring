@@ -1,0 +1,13 @@
+- Não permitir que data do término seja menor que data de início.
+
+
+- Status de "realizado pagamento parcial" ou somente aceitar pagamento integral.
+	- Se tiver pagamento parcial, gera nova coluna com valor restante.
+
+-(REALIZADO) Possibilitar a consulta por Range de datas 
+	- data e status (01/01/2023 a 05/05/2023 status pendente)
+
+
+
+
+
