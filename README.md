@@ -19,7 +19,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você instalou a versão mais recente do `Java 17 | NodeJS`
-- Banco de dados MySQL. Ou mudar o driver em application.properties
+- Banco de dados `MySQL`. Ou mudar o driver em `application.properties`
+- Editar `application.properties` com nome do banco de dados desejado, username e password.
 
 ## ☕ Usando Sistema de Serviços
 
@@ -33,6 +34,5 @@ npm start
 
 Backend - no IntelliJ ou Eclipse:
 ```
-Editar application.properties com nome do banco de dados desejado, username e passoword.
 run > java application
 ```
